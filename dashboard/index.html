@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/eif.css">
+
+</head>
+
+<body>
+  <span class="bckg"></span>
+  <header>
+    <h1>Dashboard</h1>
+    <nav>
+      <ul>
+          <li>
+            <a href="javascript:void(0);" data-title="EIF">EIF</a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" data-title="Team">Team</a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" data-title="Diary">Diary</a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" data-title="Timeline">Timeline</a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" data-title="Settings">Settings</a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" data-title="Search">Search</a>
+          </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="title">
+      <h2>Home</h2>
+      <a href="javascript:void(0);">Welcome, Portal Guest</a>
+    </div>
+
+    <article class="larg">
+      <form action="#" method="post">
+        <p>
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text">
+          <span class="right">Enter username longer than 5 characters</span>
+        </p>
+        <p>
+          <label for="password">Password</label>
+          <span class="left">Enter a password with at least one capital letter (A-Z), one lowercase letter (a-z) and one number (0-9).</span>
+          <input id="password" name="password" type="password">
+          <span class="right">Enter a password longer than 8 characters</span>
+        </p>
+        <p>
+          <label for="confirm_password">Confirm Password</label>
+          <input id="confirm_password" name="confirm_password" type="password">
+          <span class="right">Please confirm your password</span>
+        </p>
+        <p>
+          <input type="submit" value="SUBMIT" id="submit">
+        </p>
+      </form>
+    </article>
+
+
+  </main>
+
+
+  <script>
+  window.$ = window.jQuery = require("jquery");
+  </script>
+    <script src="./index.js"></script>
+</body>
+</html>
